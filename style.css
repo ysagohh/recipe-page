@@ -141,6 +141,9 @@ table {
 /* Add borders to table cells */
 td {
     padding: 10px; /* Adds padding inside cells */
+}
+
+td.data{
     color: hsl(13, 73%, 32%);
     -webkit-text-stroke: 1.5px;
     letter-spacing: 0.5px;
