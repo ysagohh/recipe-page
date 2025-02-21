@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Black';
+    src: url('./assets/fonts/outfit/static/Outfit-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Bold';
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit ExtraBold';
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit SemiBold';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Light';
+    src: url('./assets/fonts/outfit/static/Outfit-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit ExtraLight';
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Thin';
+    src: url('./assets/fonts/outfit/static/Outfit-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit Medium';
+    src: url('./assets/fonts/outfit/static/Outfit-Medium.ttf');
+}
+
+body {
+    font-family: 'Outfit Light';
+    background-color: hsl(27, 34%, 90%);
+    margin-top: 70px;
+}
+
+.recipe {
+    width: 60%;
+    max-width: 800px;
+    background-color: white;
+    padding: 5%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color:hsl(13, 73%, 32%);
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+strong {
+    -webkit-text-stroke: 0.5px;
+    letter-spacing: 0.5px;
+}
+
+
+p {
+    line-height: 1.8;
+}
+
+li {
+    margin: 15px -20px;
+    line-height: 1.8;
+    list-style-position: outside;
+}
+
+ol {
+    list-style: none;
+    counter-reset: instructions;
+    width: 85%;
+  }
+
+ol li {
+    counter-increment: instructions;
+}
+
+ol li::before {
+    content: counter(instructions) ". ";
+    color: hsl(13, 73%, 32%);
+    -webkit-text-stroke: 1.5px;
+    margin-left: -20px;
+    margin-right: 6px;
+}
+
+#preparation {
+    background-color: hsl(300, 60%, 97%);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+#preparation h3 {
+    color: hsl(320, 100%, 27%);
+}
+
+div {
+    margin: 5% 0%;
+}
+
+/* Apply border and collapse the borders */
+table {
+    border-collapse: collapse; /* Makes borders merge */
+    width: 95%;
+  }
+  
+/* Add borders to table cells */
+td {
+    padding: 10px; /* Adds padding inside cells */
+    color: hsl(13, 73%, 32%);
+    -webkit-text-stroke: 1.5px;
+    letter-spacing: 0.5px;
+}
+
+tr {
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+tr:last-child {
+    border-bottom: none;
+  }
+
+hr {
+    border: 1px solid rgb(230, 230, 230);
+}
