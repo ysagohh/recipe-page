@@ -50,13 +50,13 @@
 
 body {
     font-family: 'Outfit Light';
-    background-color: hsl(27, 34%, 90%);
+    background-color: hsl(30, 54%, 90%);
     margin-top: 70px;
 }
 
 .recipe {
     max-width: 800px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     padding: 5%;
     border-radius: 15px;
     margin: auto;
@@ -78,7 +78,7 @@ h1 {
 }
 
 h2 {
-    color:hsl(13, 73%, 32%);
+    color:hsl(14, 45%, 36%);
     font-size: 25px;
     margin-bottom: 30px;
 }
@@ -111,20 +111,20 @@ ol li {
 
 ol li::before {
     content: counter(instructions) ". ";
-    color: hsl(13, 73%, 32%);
+    color: hsl(14, 45%, 36%);
     -webkit-text-stroke: 1.5px;
     margin-left: -20px;
     margin-right: 6px;
 }
 
 #preparation {
-    background-color: hsl(300, 60%, 97%);
+    background-color: hsl(330, 100%, 98%);
     padding: 10px 30px;
     border-radius: 15px;
 }
 
 #preparation h3 {
-    color: hsl(320, 100%, 27%);
+    color: hsl(332, 51%, 32%);
 }
 
 div {
@@ -143,7 +143,7 @@ td {
 }
 
 td.data{
-    color: hsl(13, 73%, 32%);
+    color: hsl(14, 45%, 36%);
     -webkit-text-stroke: 1.5px;
     letter-spacing: 0.5px;
 }
